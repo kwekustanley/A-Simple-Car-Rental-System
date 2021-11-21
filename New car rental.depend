@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1637522273 source:c:\users\user\documents\desktop\new car rental\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<string>
+
