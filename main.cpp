@@ -109,7 +109,6 @@ int main()
     cout <<"\n";
     cout <<" "<<endl;
     cout << "\t\t	Thanks for transacting with us."<<endl;
-    cout << "\t\t	"<<endl;
     exit(0);
      }
      else{
