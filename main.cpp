@@ -59,10 +59,10 @@ int main()
     login();
 
          string decide ="yes" ;
-     cout<<"\t\t\t----------------------------------------------\n";
-     cout<<"\t\t\t\t A CAR RENTAL SYSTEM \n";
+     cout<<"\t\t\t_____________________________________________\n";
+     cout<<"\t\t\t\t A SIMPLE CAR RENTAL SYSTEM \n";
      cout<<"\t\t\t\t WELCOME TO KS RENTALS "<<endl;
-     cout<<"\t\t\t----------------------------------------------\n";
+     cout<<"\t\t\t______________________________________________\n";
 
      while(decide!="exit")
      {
@@ -96,22 +96,18 @@ int main()
         rental_fee =car.rent_fee[choice-1]*days;
         balance=payment-rental_fee;
     cout << "\n\t\t                       KS RENTALS - Customer Invoice                  "<<endl;
-    cout << "\t\t	///////////////////////////////////////////////////////////"<<endl;
-    cout << "\t\t	| Invoice No.:"<<"   ----------------- |"<<" #AnQ9751"<<endl;
-    cout << "\t\t	| Customer Name:"<<" ----------------- |"<<" " <<customer_name  <<endl;
-    cout << "\t\t	| Car Mark:"<<"      ----------------- |"<<" "<<car.mark[choice-1]<<endl;
-    cout << "\t\t	| Car Model:"<<"     ----------------- |"<<" "<<car.model[choice-1]<<endl;
-    cout << "\t\t	| Number of days:"<<"----------------- |"<<" "<< days<<" "<<endl;
-    cout << "\t\t	| Your Rental Amount :"<<"------------ |"<<" GHC"<<rental_fee<<".00"<<endl;
-    cout << "\t\t	| Amount Paid     :"<<"----------------|"<<" GHC"<<payment<<".00 "<<endl;
-    cout << "\t\t	| Balance    :"<<"---------------------|"<<" GHC"<<balance<<".00"<<endl;
+    cout << "\t\t	________________________________________________________"<<endl;
+    cout << "\t\t         Invoice No.:"<<"   ----------------- |"<<" #AnQ9751"<<endl;
+    cout << "\t\t	  Customer Name:"<<" ----------------- |"<<" " <<customer_name  <<endl;
+    cout << "\t\t	  Car Mark:"<<"      ----------------- |"<<" "<<car.mark[choice-1]<<endl;
+    cout << "\t\t	  Car Model:"<<"     ----------------- |"<<" "<<car.model[choice-1]<<endl;
+    cout << "\t\t	  Number of days:"<<"----------------- |"<<" "<< days<<" "<<endl;
+    cout << "\t\t	  Your Rental Amount :"<<"------------ |"<<" GHC"<<rental_fee<<".00"<<endl;
+    cout << "\t\t	  Amount Paid     :"<<"----------------|"<<" GHC"<<payment<<".00 "<<endl;
+    cout << "\t\t	  Balance    :"<<"---------------------|"<<" GHC"<<balance<<".00"<<endl;
     cout << "\t\t	 ________________________________________________________"<<endl;
     cout <<"\n";
-    cout << "\t\t	| Total Rental Amount  :"<<"-------|"<<" GHC"<<rental_fee<<".00  |"<<endl;
-    cout << "\t\t	 ________________________________________________________"<<endl;
-
     cout <<" "<<endl;
-    cout << "\t\t	///////////////////////////////////////////////////////////"<<endl;
     cout << "\t\t	Thanks for transacting with us."<<endl;
     cout << "\t\t	"<<endl;
     exit(0);
